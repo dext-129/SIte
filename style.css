@@ -14,7 +14,19 @@ body {
     z-index: -1; 
     opacity: 0.2; 
 }
+.logo{
+   display : flex;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+.logo h1{
+    padding: 0px 0px 0px 7px;
+}
+.logo i{
+    align-items: center;
+
+}
 nav{
     background-color: #5e5e5e36;
     color: #FFFFFF;
@@ -30,7 +42,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    align-items: center;   
 }
 nav ul li {
     margin: 0 15px;     
@@ -49,4 +62,25 @@ nav ul li a:hover
     /* text-decoration: underline; */
     color: #ffffff;
     font-weight: bold;       
+}
+.login{
+    background-color: #50505048;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center; 
+    /* margin-bottom: 10px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.login:hover{
+    background-color: rgba(255, 255, 255, 0.11);
+}
+.login a{
+    color : white;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #ffffff;
+    text-shadow: white 0px 0px 10px;
+    font-weight: bold; 
 }
